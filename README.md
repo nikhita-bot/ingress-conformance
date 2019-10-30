@@ -1,4 +1,6 @@
 # ingress-conformance
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fnikhita-bot%2Fingress-conformance.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fnikhita-bot%2Fingress-conformance?ref=badge_shield)
+
 
 The goal of this project is to act as an executable specification in the form of a test suite, implementing a standard, actively maintained ingress-controller conformance specification.
 
@@ -125,3 +127,6 @@ $ go build -o echoserver tools/echoserver.go
 $ export VERSION=0.0.1 # Or git tag
 $ go build -ldflags "-X github.com/datawire/ingress-conformance/cmd.VERSION=$VERSION"
 ```
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fnikhita-bot%2Fingress-conformance.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fnikhita-bot%2Fingress-conformance?ref=badge_large)
